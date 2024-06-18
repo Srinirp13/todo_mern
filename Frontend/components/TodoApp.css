@@ -1,0 +1,80 @@
+.todo-app {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .todo-input {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 238, 238);
+    padding: 20px;
+  }
+  
+  .todo-input input,
+  .todo-input textarea {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .todo-input textarea {
+    height: 150px;
+  }
+  
+  .todo-input button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 20px;
+  }
+  
+  .todo-input button:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .todo-item h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .todo-item p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .todo-item button {
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .todo-item button:hover {
+    opacity: 0.8;
+  }
+  
+  .todo-item button:first-of-type {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .todo-item button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+  }
+  
